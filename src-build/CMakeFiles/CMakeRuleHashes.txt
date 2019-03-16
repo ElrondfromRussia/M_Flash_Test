@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+201d455deea1590cd9a190c3d240e310 CMakeFiles/untitled1_autogen
+d5f521a203a502b899711f8fd96c3d0f qrc_imgs.cpp
+9fc662e9ba5e65ca9538a5731a35d19d ui_mainwindow.h

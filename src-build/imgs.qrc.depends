@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imgs/accessories-text-editor2.png</file>
+        <file>imgs/clear.png</file>
+        <file>imgs/expression@2x.png</file>
+        <file>imgs/home-page1.png</file>
+        <file>imgs/icon_img.png</file>
+        <file>imgs/remove.png</file>
+        <file>imgs/settings_min.png</file>
+    </qresource>
+</RCC>

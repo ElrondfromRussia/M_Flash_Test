@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "E:/gavrilenko/M_FlaTest/build/")
+set(AM_CMAKE_SOURCE_DIR "E:/gavrilenko/M_FlaTest/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "E:/gavrilenko/M_FlaTest/src/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "E:/gavrilenko/M_FlaTest/build/src/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "E:/gavrilenko/M_FlaTest/build/src/M_FlaTest_autogen")
+set(AM_SOURCES "E:/gavrilenko/M_FlaTest/src/fktester.cpp;E:/gavrilenko/M_FlaTest/src/main.cpp;E:/gavrilenko/M_FlaTest/src/mainwindow.cpp")
+set(AM_HEADERS "E:/gavrilenko/M_FlaTest/src/fktester.h;E:/gavrilenko/M_FlaTest/src/mainwindow.h")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "C:/Qt/Qt5.5.0/5.5/mingw492_32/bin/moc.exe")
+set(AM_QT_UIC_EXECUTABLE "C:/Qt/Qt5.5.0/5.5/mingw492_32/bin/uic.exe")
+set(AM_QT_RCC_EXECUTABLE "C:/Qt/Qt5.5.0/5.5/mingw492_32/bin/rcc.exe")
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_XML_LIB")
+set(AM_MOC_INCLUDES "E:/gavrilenko/M_FlaTest/build/src;E:/gavrilenko/M_FlaTest/src;E:/gavrilenko/M_FlaTest/build/src/M_FlaTest_autogen/include;C:/Qt/Qt5.5.0/5.5/mingw492_32/include;C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtWidgets;C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtGui;C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtCore;C:/Qt/Qt5.5.0/5.5/mingw492_32/mkspecs/win32-g++;C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtXml")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD )
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
+# RCC settings
+set(AM_RCC_SOURCES "" )
+set(AM_RCC_INPUTS "")
+set(AM_RCC_OPTIONS_FILES "")
+set(AM_RCC_OPTIONS_OPTIONS "")

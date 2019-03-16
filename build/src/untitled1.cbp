@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\Qt\;CMake Files\Qt\Qt5.5.0\;CMake Files\Qt\Qt5.5.0\5.5\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\;CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Xml\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/gavrilenko/untitled1/build/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled1">
+				<Option output="E:/gavrilenko/untitled1/build/bin/untitled1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/gavrilenko/untitled1/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_XML_LIB"/>
+					<Add directory="E:/gavrilenko/untitled1/build/src"/>
+					<Add directory="E:/gavrilenko/untitled1/src"/>
+					<Add directory="E:/gavrilenko/untitled1/build/src/untitled1_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtXml"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 untitled1"/>
+					<CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled1/fast">
+				<Option output="E:/gavrilenko/untitled1/build/bin/untitled1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/gavrilenko/untitled1/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_XML_LIB"/>
+					<Add directory="E:/gavrilenko/untitled1/build/src"/>
+					<Add directory="E:/gavrilenko/untitled1/src"/>
+					<Add directory="E:/gavrilenko/untitled1/build/src/untitled1_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/Qt5.5.0/5.5/mingw492_32/include/QtXml"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 untitled1/fast"/>
+					<CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled1_autogen">
+				<Option working_dir="E:/gavrilenko/untitled1/build/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 untitled1_autogen"/>
+					<CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/untitled1/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/gavrilenko/untitled1/build/src/qrc_imgs.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/build/src/ui_mainwindow.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/build/src/untitled1_autogen/mocs_compilation.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/fktester.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/fktester.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/imgs.qrc">
+			<Option target="untitled1"/>
+			<Option target="untitled1_autogen"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/main.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/mainwindow.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/mainwindow.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/mainwindow.ui">
+			<Option target="untitled1"/>
+			<Option target="untitled1_autogen"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/imgs.qrc">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/src/imgs.qrc">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/untitled1/Qt/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Xml\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
