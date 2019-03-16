@@ -1,3 +1,3 @@
 # M_Flash_Test
 Testing flash cards by writing-reading samples
-FlashTest created 
+Written with C++, Widgets in Qt Creator
