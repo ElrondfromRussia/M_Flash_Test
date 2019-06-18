@@ -1,6 +1,16 @@
 #include "fktester.h"
 #include <QDebug>
 
+FkTester::FkTester(QObject *pobj) : QObject(pobj)
+{
+    file_index = 0;
+    folder_index = 0;
+    inperrs = 0;
+    fileerrs = 0;
+    writtenfsnum = 0;
+    outerrs = 0;
+}
+
 //тест флэшки
 void FkTester::TestFK()
 {

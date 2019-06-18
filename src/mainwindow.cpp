@@ -1,13 +1,11 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
 
     file_index = 0;
     folder_index = 0;
@@ -31,8 +29,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     time.setHMS(0,0,0);
     ui->timeline->setText(time.toString("hh:mm:ss"));
-    connect(&timer, &QTimer::timeout, this, MainWindow::onTimerShot);
-
+    connect(&timer, SIGNAL(timeout()), this, SLOT(onTimerShot()));
 
     ui->fsline->setReadOnly(true);
     ui->freeline->setReadOnly(true);
@@ -42,8 +39,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->timeline->setReadOnly(true);
 
     //Making .ico file from .png
-    QSharedPointer<QPixmap>window_icon = QSharedPointer<QPixmap>::create(":/imgs/icon_img.png");
-    setWindowIcon(QIcon(*window_icon));
+//    QSharedPointer<QPixmap>window_icon = QSharedPointer<QPixmap>::create(":/imgs/icon_img.png");
+//    setWindowIcon(QIcon(*window_icon));
 //    QFile ficon;
 //    ficon.setFileName("app_icon.ico");
 //    if (!ficon.open(QFile::ReadWrite)) qWarning("Can't create icon file");
@@ -93,6 +90,8 @@ void MainWindow::on_diskbox_activated(const QString &arg1)
     }
 }
 
+//кнопочки
+//////////////////////////////////////////////
 //обработка клика на "принять"
 void MainWindow::on_accept_btn_clicked()
 {
@@ -219,15 +218,21 @@ void MainWindow::on_check_btn_clicked()
     }
 }
 
+
+//////////////////////////////////////////////
+
 //секунда прошла
 void MainWindow::onTimerShot()
 {
-    time.setHMS(time.hour() + ((time.minute()+ ((time.second()+1) % 60 == 0)) % 60 == 0 && time.minute() != 0),
+    time.setHMS(time.hour() + ((time.minute() +
+                                ((time.second()+1) % 60 == 0)) % 60 == 0 && time.minute() != 0),
                 (time.minute() + ((time.second()+1) % 60 == 0)) % 60,
                 (time.second()+1) % 60);
     ui->timeline->setText(time.toString("hh:mm:ss"));
 }
 
+//переходы по вкладкам и клики на панели сверху
+///////////////////////////////////////////////
 //клик на дом, возвращение на главную
 void MainWindow::on_main_page_triggered()
 {
@@ -268,17 +273,23 @@ void MainWindow::on_clear_triggered()
         }
     }
 }
+///////////////////////////////////////////////
 
+
+//показать, сколько свободных байт на флешке (Кб)
 void MainWindow::on_setFreeBytes(int num)
 {
     ui->freeline->setText(QString::number(num).append(" Кб"));
 }
 
+//показать, сколько файлов уже записано
 void MainWindow::on_files_written(int num)
 {
     ui->writtenline->setText(QString::number(num));
 }
 
+
+///////////////////////////////////////////////
 //инкремент ошибок ввода/вывода
 void MainWindow::on_setInputErrs(int num)
 {
@@ -297,11 +308,30 @@ void MainWindow::on_setWritErrs(int num)
     fileerrs = num;
 }
 
+//гордо уходим
+void MainWindow::on_exit_triggered()
+{
+    save_settings();
+    close();
+}
+
+//вкладка журнала
+void MainWindow::on_logging_triggered()
+{
+    ui->setframe->hide();
+    ui->mainfr->hide();
+    ui->frame_log->show();
+}
+
+/////////////////////////////////////////////////
+
+//накрутка прогрессбара после записи очередного файла
 void MainWindow::on_file_ready()
 {
     ui->testProgress->setValue(ui->testProgress->value()+1);
 }
 
+//пауза между отмонтир - примонтир
 void MainWindow::on_umount_pause()
 {
     if(QMessageBox::question(this, tr("Тест"),
@@ -356,12 +386,14 @@ void MainWindow::on_umount_pause()
     }
 }
 
+//отправка сообщения о тесте (вывод просто нам)
 void MainWindow::on_send_msg(QString msg)
 {
     QMessageBox::critical(this, tr("Тест"),
                           msg);
 }
 
+//остановить все
 void MainWindow::on_stop()
 {
     if(timer.isActive())
@@ -389,11 +421,6 @@ void MainWindow::on_stop()
     }
 }
 
-void MainWindow::on_exit_triggered()
-{
-    save_settings();
-    close();
-}
 //сохранение настроек при закрытии
 void MainWindow::save_settings()
 {
@@ -430,6 +457,7 @@ void MainWindow::save_settings()
     s_F << doc;
     saving_file.close();
 }
+
 //загрузка настроек из файла, если есть
 void MainWindow::restore_settings()
 {
@@ -503,24 +531,19 @@ void MainWindow::set_dflt_settings()
     size_files =  ui->fsize_b->value()*1024*1024;
 }
 
-//вкладка журнала
-void MainWindow::on_logging_triggered()
-{
-    ui->setframe->hide();
-    ui->mainfr->hide();
-    ui->frame_log->show();
-}
-
+//печатаем логи во вкладку логов
 void MainWindow::on_printlog(QString msg)
 {
     ui->log_edit->append(msg);
 }
 
+//подсветка текста цветом
 void MainWindow::on_setTextColor(QString color)
 {
     ui->log_edit->setTextColor(QColor(color));
 }
 
+//о нет, ошибка вышла
 void MainWindow::on_Errored()
 {
     if(timer.isActive())
@@ -528,6 +551,9 @@ void MainWindow::on_Errored()
     test_running = 0;
 }
 
+
+//////////////////////////////////////////////////////
+/////обработка движений мыши, которая может хватать и тянуть окно
 void MainWindow::mouseMoveEvent(QMouseEvent *event)
 {
     move(event->globalX() - m_nMouseClick_X_Coordinate, event->globalY() - m_nMouseClick_Y_Coordinate);
